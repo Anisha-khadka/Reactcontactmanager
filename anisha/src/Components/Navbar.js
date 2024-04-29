@@ -1,15 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export default function Navbar(props) {
-    
-        
+export default function Navbar() {
   return (
-<div className='nav'>
-    <navbar>
-    <h2>{props.title}</h2>
-
-
-    </navbar>
-</div>
-)
+    <>
+      <nav>
+        <p>Contact Manager</p>
+      </nav>
+    </>
+  );
 }
